@@ -1,0 +1,11 @@
+.App {
+  margin: 0 auto;
+}
+
+.wrapperBtn {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
