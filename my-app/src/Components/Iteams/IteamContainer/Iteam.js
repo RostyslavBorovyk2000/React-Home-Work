@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Iteam.module.scss";
 import Modal from "../../Modal/Modal";
+import PropTypes from "prop-types";
 
 const Iteam = props => {
   const {
@@ -78,6 +79,14 @@ const Iteam = props => {
       )}
     </section>
   );
+};
+
+Iteam.propTypes = {
+  id: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
 };
 
 export default Iteam;

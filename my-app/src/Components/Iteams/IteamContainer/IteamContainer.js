@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Iteam.module.scss";
 import Iteam from "./Iteam";
+import PropTypes from "prop-types";
 
 const IteamContainer = props => {
   const { iteams, onFavoriteToggle, onAddToCart, favoriteCount, cartItems } =
@@ -25,6 +26,12 @@ const IteamContainer = props => {
       ))}
     </div>
   );
+};
+
+IteamContainer.propTypes = {
+  iteams: PropTypes.array.isRequired,
+  onFavoriteToggle: PropTypes.func.isRequired,
+  onAddToCart: PropTypes.func.isRequired,
 };
 
 export default IteamContainer;
