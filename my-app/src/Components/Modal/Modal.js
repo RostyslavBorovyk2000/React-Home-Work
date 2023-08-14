@@ -1,8 +1,9 @@
+import React from "react";
 import styles from "./Modal.module.scss";
 
 const Modal = ({ header, closeButton, text, onCancel, onConfirm }) => {
   return (
-    <div onClick={onConfirm} className={styles.modal}>
+    <div className={styles.modal} onClick={onCancel}>
       <div className={styles.modalContent}>
         <div className={styles.modalHeader}>
           <h2>{header}</h2>
@@ -19,7 +20,7 @@ const Modal = ({ header, closeButton, text, onCancel, onConfirm }) => {
           <button className={styles.okBtn} onClick={onConfirm}>
             OK
           </button>
-          <button className={styles.canceBtn} onClick={onCancel}>
+          <button className={styles.cancelBtn} onClick={onCancel}>
             Cancel
           </button>
         </div>

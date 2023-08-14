@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  background: linear-gradient(45deg, black, #615858);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.imgWrapper {
+  display: flex;
+  position: relative;
+  left: 87%;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.logo {
+  fill: rgb(253, 253, 253);
+  width: 50px;
+  height: 50px;
+}
+
+.img {
+  position: relative;
+  top: -5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.numberProduct {
+  margin-left: 5px;
+  margin-top: 5px;
+  font-size: 18px;
+  color: #fff;
+}

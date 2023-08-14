@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.iteam {
+  position: relative;
+  width: 30%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.star {
+  position: absolute;
+  top: 15px;
+  left: 90%;
+}
+
+.img {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.name {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 24px;
+  color: #e74c3c;
+}
+
+.btn {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}

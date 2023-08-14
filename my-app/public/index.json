@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "name": "Ботільйони Kim чорні шкіряні",
+    "price": "5700 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/46000_47000/46754/2802202305_BO4336002_L1225_4.jpg",
+    "art": "4336002",
+    "color": "black"
+  },
+
+  {
+    "id": 2,
+    "name": "Балетки Ashley чорні шкіряні",
+    "price": "4100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/46000_47000/46944/2601202305_BF3806005_L0371_3.jpg",
+    "art": "3806005",
+    "color": "black"
+  },
+
+  {
+    "id": 3,
+    "name": "Ботільйони Blanca білі шкіряні з блискавкою",
+    "price": "6100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/46000_47000/46948/2802202302_BO7249002_1200229_4.jpg",
+    "art": "7249002",
+    "color": "white"
+  },
+
+  {
+    "id": 4,
+    "name": "Лофери Alen коричневі на шкіряній підошві",
+    "price": "5400 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/46000_47000/46971/2701202306_LF1727008_L1265_4.jpg",
+    "art": "1727008",
+    "color": "brown"
+  },
+
+  {
+    "id": 5,
+    "name": "Ковбойки Annie світло-бежеві замшеві",
+    "price": "6100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/44000_45000/44059/0303202303_BO9791003_Z0190_2.jpg",
+    "art": "9791003",
+    "color": "beige"
+  },
+
+  {
+    "id": 6,
+    "name": "Балетки Lory кольору хакі шкіряні",
+    "price": "4100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/43000_44000/43601/0108202202_FW22-23_BF3806004_L1210_all.jpg",
+    "art": "3806004",
+    "color": "khaki"
+  },
+
+  {
+    "id": 7,
+    "name": "Босоніжки Jade червоні сатинові",
+    "price": "6500 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/45000_46000/45894/2811202206_SL7250002_T0242_4.jpg",
+    "art": "7250002",
+    "color": "red"
+  },
+
+  {
+    "id": 8,
+    "name": "Лодочки Gina зелені шкіряні ",
+    "price": "2290 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/41000_42000/41216/2701202203_fw21-22_P4336001_L1062_hb.jpg",
+    "art": "4336001",
+    "color": "green"
+  },
+
+  {
+    "id": 9,
+    "name": "Сабо Tina з рожевого текстилю",
+    "price": "3490 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/32000_33000/32612/0712202011_fw19-20_SL1049002_T0165_hs.jpg",
+    "art": "1049002",
+    "color": "pink"
+  },
+
+  {
+    "id": 10,
+    "name": "Ботільйони Blanca ніжно-жовті шкіряні ",
+    "price": "6100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/45000_46000/45095/0211202202_FW22-23_BO7249001_L1195_fr.jpg",
+    "art": "7249001",
+    "color": "yellow"
+  },
+
+  {
+    "id": 11,
+    "name": "Босоніжки Katya з синього сатину",
+    "price": "4890 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/43000_44000/43799/1208202204_FW22-23_SL6859001_T0241_all.jpg",
+    "art": "6859001",
+    "color": "blue"
+  },
+
+  {
+    "id": 12,
+    "name": "Туфлі Jane чорні лаковані",
+    "price": "4100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/43000_44000/43480/2507202203_FW22-23_P8693002_g0079_he.jpg",
+    "art": "8693002",
+    "color": "black"
+  },
+
+  {
+    "id": 13,
+    "name": "Мюлі Alexa чорні з кристалами Swarovski",
+    "price": "6500 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/45000_46000/45791/2811202207_ML5756001_T0303_2.jpg",
+    "art": "5756001",
+    "color": "black"
+  },
+
+  {
+    "id": 14,
+    "name": "Ботільйони Courtney коричневі шкіряні з блискавкою",
+    "price": "5300 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/44000_45000/44228/0209202202__MG_25401.jpg",
+    "art": "5756002",
+    "color": "brown"
+  },
+
+  {
+    "id": 15,
+    "name": "Мюлі Annet чорні шкіряні",
+    "price": "5100 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/47000_48000/47007/0102202303_ML8836001_L0371_4.jpg",
+    "art": "8836001",
+    "color": "black"
+  },
+
+  {
+    "id": 16,
+    "name": "Ковбойки Nina світло-бежеві замшеві",
+    "price": "6400 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/43000_44000/43460/0303202305_BO9791001_Z0190_3.jpg",
+    "art": "9791001",
+    "color": "white"
+  },
+
+  {
+    "id": 17,
+    "name": "Черевики Riri оливкові шкіряні",
+    "price": "3900 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/32000_33000/32276/1611202012_fw19-20_BO64569001_L0938_all.jpg",
+    "art": "64569001",
+    "color": "khaki"
+  },
+
+  {
+    "id": 18,
+    "name": "Босоніжки Katya з білого текстилю та каміння",
+    "price": "6500 грн",
+    "url": "https://kachorovska.com/image/catalog/easyphoto/36000_37000/36781/3006202106_fw19-20_SL81544003_L0287_all.jpg",
+    "art": "81544003",
+    "color": "white"
+  }
+]
