@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
+import { getToLocalStoreygh, saveToLocalStoreygh } from "./utils/localStore";
+import { CART_LS_KEY, FAVORITES_LS_KEY } from "./constans";
+import { Route, Routes } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
 import Button from "./Components/Button/Button";
 import Modal from "./Components/Modal/Modal";
 import Header from "./Components/Header/Header";
+import BaskedPages from "./Components/Pages/BaskedPages";
+import FavorytePages from "./Components/Pages/FavorytePages";
 import IteamContainer from "./Components/Iteams/IteamContainer/IteamContainer";
-import { getToLocalStoreygh, saveToLocalStoreygh } from "./utils/localStore";
-import { CART_LS_KEY, FAVORITES_LS_KEY } from "./constans";
-
 const App = () => {
   const [firstModalActive, setFirstModalActive] = useState(false);
   const [secondModalActive, setSecondModalActive] = useState(false);
-  const [items, setItems] = useState([]); // Исправлено: iteam -> items
+  const [items, setItems] = useState([]);
   const [cartItems, setCartItems] = useState([]);
   const [favoriteCount, setFavoriteCount] = useState(0);
 
@@ -92,11 +94,7 @@ const App = () => {
   return (
     <div className="App">
       <Header favoriteCount={favoriteCount} cartItemCount={cartItems.length} />
-      <IteamContainer
-        iteams={items}
-        onFavoriteToggle={handleFavoriteToggle}
-        onAddToCart={handleAddToCart}
-      />
+
       <div className="wrapperBtn">
         <Button onClick={openFirstModal} text="Open first modal" />
         <Button
@@ -123,6 +121,28 @@ const App = () => {
           onConfirm={handleSecondModalConfirm}
         />
       )}
+      <Routes>
+        <Route
+          path="/products"
+          element={
+            <IteamContainer
+              iteams={items}
+              onFavoriteToggle={handleFavoriteToggle}
+              onAddToCart={handleAddToCart}
+            />
+          }
+        />
+        <Route
+          path="/favoryte"
+          element={<FavorytePages onFavoriteToggle={handleFavoriteToggle} />}
+        />
+        <Route
+          path="/basked"
+          element={
+            <BaskedPages cartItems={cartItems} setCartItems={setCartItems} />
+          }
+        />
+      </Routes>
     </div>
   );
 };

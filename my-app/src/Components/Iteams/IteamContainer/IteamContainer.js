@@ -30,8 +30,6 @@ const IteamContainer = props => {
 
 IteamContainer.propTypes = {
   iteams: PropTypes.array.isRequired,
-  onFavoriteToggle: PropTypes.func.isRequired,
-  onAddToCart: PropTypes.func.isRequired,
 };
 
 export default IteamContainer;

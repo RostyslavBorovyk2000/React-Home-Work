@@ -10,6 +10,7 @@ const Iteam = props => {
     price,
     url,
     color,
+    btn,
     favorite,
     onFavoriteToggle,
     onAddToCart,
@@ -27,11 +28,13 @@ const Iteam = props => {
   const [currentSvgColor, setCurrentSvgColor] = useState(
     favorite ? "rgb(243, 208, 8)" : "#000"
   );
-
   const handleSvgClick = () => {
-    const newColor = currentSvgColor === "#000" ? "rgb(243, 208, 8)" : "#000";
+    const newColor =
+      currentSvgColor === "rgb(243, 208, 8)" ? "#000" : "rgb(243, 208, 8)";
     setCurrentSvgColor(newColor);
-    onFavoriteToggle(id);
+
+    const newFavorite = newColor === "rgb(243, 208, 8)";
+    onFavoriteToggle(id, newFavorite);
   };
 
   const [isAddingToCart, setIsAddingToCart] = useState(false);
@@ -67,6 +70,7 @@ const Iteam = props => {
       <button className={styles.btn} onClick={openModal}>
         Add to Cart
       </button>
+      {btn}
 
       {isAddingToCart && (
         <Modal
